@@ -43,6 +43,6 @@ def test_invalid_weight_data_type_raises_type_error(weight):
     # Arrange
     weight_grams = weight
 
-    # Act and Assert
+    # Act and Asserts
     with pytest.raises(TypeError):
         delivery_fee(weight_grams)
